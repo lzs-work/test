@@ -15,11 +15,14 @@ public class ApiGatewayApplication {
     public TokenFilter tokenFilter(){
         System.out.println("dev11");
         System.out.println("deve 1231");
+        System.out.println("ddd");
         return  new TokenFilter();
     }
 
 	public static void main(String[] args) {
-		SpringApplication.run(ApiGatewayApplication.class, args);
+        System.out.println("4555");
+        System.out.println("sssss");
+        SpringApplication.run(ApiGatewayApplication.class, args);
 	}
 
 }
