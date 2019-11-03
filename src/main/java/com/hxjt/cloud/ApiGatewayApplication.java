@@ -14,6 +14,7 @@ public class ApiGatewayApplication {
     @Bean
     public TokenFilter tokenFilter(){
         System.out.println("dev11");
+        System.out.println("deve 1231");
         return  new TokenFilter();
     }
 
