@@ -17,6 +17,7 @@ public class ApiGatewayApplication {
         System.out.println("第二次修改");
         System.out.println("分支修改");
         System.out.println("dev5");
+        System.out.println("5");
         return  new TokenFilter();
     }
 
