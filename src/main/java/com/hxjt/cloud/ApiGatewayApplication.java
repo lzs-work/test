@@ -13,17 +13,7 @@ import org.springframework.context.annotation.Bean;
 public class ApiGatewayApplication {
     @Bean
     public TokenFilter tokenFilter(){
-        System.out.println("第一次修改");
-        System.out.println("第二次修改");
-        System.out.println("分支修改");
-        System.out.println("dev3");
-        System.out.println("3");
-        System.out.println("dev2");
-        System.out.println(
-                "2"
-        );
-        System.out.println("dev5");
-        System.out.println("5");
+        System.out.println("dev11");
         return  new TokenFilter();
     }
 
