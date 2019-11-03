@@ -14,6 +14,7 @@ public class ApiGatewayApplication {
     @Bean
     public TokenFilter tokenFilter(){
         System.out.println("第一次修改");
+        System.out.println("第二次修改");
         return  new TokenFilter();
     }
 
