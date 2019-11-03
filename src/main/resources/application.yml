@@ -9,4 +9,3 @@ eureka:
     fetch-registry: true
     service-url:
      defaultZone: http://root:123456@localhost:8001/eureka/
-#第一次更改
