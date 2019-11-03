@@ -15,6 +15,8 @@ public class ApiGatewayApplication {
     public TokenFilter tokenFilter(){
         System.out.println("dev11");
         System.out.println("deve 1231");
+        System.out.println("sddss"
+        );
         return  new TokenFilter();
     }
 
